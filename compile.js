@@ -11,4 +11,5 @@ const ethInboxPath = path.resolve(__dirname,'contracts','EthInbox.sol')
 const sourceCode = fs.readFileSync(ethInboxPath, 'utf-8')
 
 // solc requires the source code we are reading in, as well as the number of contracts we are trying to compile
-solc.compile(sourceCode,1)
+// If you want to get a better idea of what the compiler is doing just wrap the below statement in a 'console.log()'
+console.log(solc.compile(sourceCode,1))

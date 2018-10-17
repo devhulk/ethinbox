@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/devhulk/ethinbox/issues"
   },
-  "homepage": "https://github.com/devhulk/ethinbox#readme"
+  "homepage": "https://github.com/devhulk/ethinbox#readme",
+  "dependencies": {
+    "solc": "^0.4.25"
+  }
 }

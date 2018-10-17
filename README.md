@@ -8,12 +8,9 @@ https://nodejs.org/en/
 
 ### Solidity Compiler needs to be installed
 
+The solidity compiler is already in the package.json. After cloning repo run the following command inside the project.
 ``` bash
-#Install Globally
-npm i -g solc
-
-#Or you can install locally in your project after you clone the repository with
-npm i --save solc
+npm install
 ```
 
 
