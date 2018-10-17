@@ -1,8 +1,12 @@
 # Lab 1 - EthInbox
 
 ## Prereqs
-    * NodeJS must be installed
-    * Solidity Compiler needs to be installed
+
+### NodeJS must be installed
+
+https://nodejs.org/en/
+
+### Solidity Compiler needs to be installed
 
         ```
         //Install Globally
