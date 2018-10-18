@@ -35,6 +35,9 @@ const sourceCode = fs.readFileSync(ethInboxPath, 'utf-8')
 // If you want to get a better idea of what the compiler is doing just wrap the below statement in a 'console.log()'
 console.log(solc.compile(sourceCode,1))
 
+// when you are done exploring make sure to erase the above console log and replace it with the below code
+// module.exports = solc.compile(sourceCode,1)
+
 ```
 go into the file and add the console.log() like above...
 
