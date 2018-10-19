@@ -39,11 +39,11 @@ console.log(solc.compile(sourceCode,1))
 // module.exports = solc.compile(sourceCode,1)
 
 ```
-go into the file and add the console.log() like above...
+Check out the test folder for the actual web3 interaction with ganache.
 
-then go ahead and run `node compile.js`
+Check the deploy.js file for the deployment to the Rinkeby Ethereum Test Network.
 
-Pay special attention to the `bytecode` and `interface` keys on the object.
+
 
 
 
